@@ -1,5 +1,5 @@
 #!/bin/bash
 for fruits in apple banana mango orange
 do
-     echo "I can buy a/an"
+     echo "I can buy a/an $fruits" > $fruits
 done
